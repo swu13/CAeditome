@@ -4,7 +4,11 @@
 #This project contains the codes for diverse down-stream analyses of A-to-I RNA editing in human pan-cancers from TCGA
 
 #1. doanload links related to the project. 
-please see the Download.sh file for all kinds of data related to this project, including Download_Gene_expression_Data.R, 
+Tool: LiftOver
+Download.sh
+Download_Gene_expression_Data.R
+ExtractUTR.R
+
 
 #2. RNA editing detection. 
 RNAdetection.sh
@@ -47,11 +51,23 @@ RNAeditingMiRNA.sh
 CompeteComputeTwo.R
 Network.R
 
-#9. Statistics including all criteria for each part. 
-Statistic.sh
+#9. Annotation of RNA editing effects on RNA structure.
+Tool: RNAfold
+RNAeditingStructureAnnotation.sh
 
-#10. Analyses results. 
+#10. Statistics including all criteria for each part. 
+Statistic.sh
+BarPlot.R
+Boxplot.R
+BubblePlot.R
+Enrichment.R
+Histogram.R
+VennPlot.R
+Violin.R
+VolcanoPlot.R
+
+#11. Analyses results. 
 https://ccsm.uth.edu/CAeditome/index.html
 
-#11. citation. 
+#12. citation. 
 Wu S, Fan Z, Kim P, Huang L, and Zhou X, CAeditome: functional annotation of A-to-I RNA editing in patients with cancer.
